@@ -1,0 +1,180 @@
+body {
+	background-color: #b7d1c4
+}
+
+h2 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #acd1b2;
+}
+
+img {
+	height: 170px;
+	width: 170px;
+	box-shadow: rgba(0,0,0,0.2) 10px 10px;
+
+}
+
+#navbar {
+	/*Add your CSS here!*/
+	position:fixed;/*像广告一样一直出现在眼前*/
+	margin-top:150px;
+	left:30%;
+	margin-left:-254px;
+	
+}
+
+#header {
+	position: relative;
+	top: -10px;
+	background-color: #3c4543;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+ul{
+	list-style-type: none;
+	position: fixed ;
+	margin: -10px;
+
+}
+
+li {
+	/*Add your CSS here!*/
+	
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #001122;
+	border-radius: 5px 5px;
+	background-color: #cc0323
+	display:inline;
+	padding:5px;
+}
+
+#left{
+	/*Add your CSS here!*/
+float:left;
+width:25%;
+}
+
+p {
+	font-family: Tahoma;
+	font-size: 1em;
+}
+
+
+
+table {
+	border: #000000 1px solid;
+	background-color: #acd1b2;
+	float: right;
+	margin-right: 10px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+td {
+	height: 75px;
+	width: 75px;
+}
+
+td img {
+	height: 75px;
+	width: 75px;
+	box-shadow: none;
+}
+
+th {
+	font-family: Verdana;
+	font-size: 1em;
+	font-weight: normal;
+	color: #3c4543
+}
+
+#bottom_left{
+	border-bottom-left-radius: 15px;
+}
+
+#bottom_right{
+	border-bottom-right-radius: 15px;
+}
+
+#footer{
+	/*Add your CSS here!*/
+	
+	position: relative;
+	bottom: -20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 75px;
+	background-color: #3c4543;
+	clear:both;
+}
+
+#button{
+	border: 2px solid #000000;
+	float:left;
+	position: relative;
+	left: 229px;
+	bottom: -20px;
+	border-radius: 5px;
+	background-color: #cc0323;
+	height: 30px;
+	width: 150px;
+	
+}
+
+#button p{
+	position: relative;
+	bottom: 10px;
+	font-size: 0.8em;
+	color: #acd1b2;
+	text-align: center;
+}
+
+.bold{
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 1.2em;
+	font-variant: small-caps;
+	color: #ffffff;
+}
+#zhongjian p{   
+    position: relative;            /*这个是自己加的额，目的是加一个自己的介绍框。*/
+    font-family: tahoma;
+	font-weight: bold;
+	font-size: 23px;
+	font-variant: small-caps;
+	color: #001111;
+  }
+#jianjie{               /*这个是自己加的额，目的是加一个自己的介绍框。*/
+    
+    
+    height: 270px;/*高度270像素*/
+    border: 10px solid #000000;/*框的参数*/
+    background-color: #b7d1c4;
+    align:center;
+}
+h2{
+
+	font-size: 18px;
+}
+#zhongjian{
+
+    height:280px;
+    width:300px;
+    margin-left:200px;/*设置元素跟其他元素的距离为200像素*/
+    float:left;/*设置浮动，实现多列效果，div+Css布局中很重要的*/
+  
+
+
+}
+#right{
+	/*Add your CSS here!*/
+     float:left;
+    margin-left:300px;
+     
+}
